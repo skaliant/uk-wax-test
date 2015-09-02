@@ -20,6 +20,12 @@ public class IndexController
 	}
 	
 	
+	public String other()
+	{
+		return "other";
+	}
+	
+	
 	public Object answer(HttpServletRequest req)
 	{
 		if (what != null)

@@ -10,20 +10,13 @@
     <jsp:directive.page contentType="text/html; charset=utf-8" />
     <html xmlns="http://www.w3.org/1999/xhtml">
        <head>
-           <title>This is the title!</title>
+           <title>This is another title!</title>
        </head>
        <body>
            <h1>Big fat headline</h1>
            <p>
-               And this is where the good stuff goes.
-               <c:if test="${what ne null}">
-                  You said: "<c:out value="${what}" />"
-               </c:if>
+               This is another page.
            </p>
-           <wax:form action="/de/index/answer" method="post">
-               <input type="text" name="what" />
-               <button type="submit">OK</button>
-           </wax:form>
        </body>
     </html>
 </jsp:root>
