@@ -2,7 +2,7 @@ package de.skaliant.waxtest.ctrl;
 
 import javax.servlet.http.HttpServletRequest;
 
-import de.skaliant.wax.results.Result;
+import de.skaliant.wax.app.results.Result;
 
 /**
  * 
